@@ -1,0 +1,13 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: red;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+/*ΑΥΤΟ ΔΕΝ ΚΛΗΡΟΝΟΜΕΙΤΑΙ!*/
+
+p {
+    border: 1px solid black;
+}

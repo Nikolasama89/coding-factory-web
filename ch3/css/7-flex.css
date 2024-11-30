@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    height: 200px;
+    border: 1px solid black;
+    /* MONO OTAN EXOYME DISPLAY FLEX */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}

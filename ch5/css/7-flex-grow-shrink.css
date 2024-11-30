@@ -1,0 +1,26 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    display: flex;
+    /* ΚΑΝΕΙ ΤΟ ΣΤΟΙΧΕΙΟ ΝΑ ΠΑΕΙ ΑΠΟ ΚΑΤΩ */
+    flex-wrap: wrap;
+}
+
+.box1 {
+    background-color: blueviolet;
+    flex: 0 0 100px;
+}
+
+.box2 {
+    background-color: blanchedalmond;
+    flex: 1 0 500px;
+}
+
+.box3 {
+    background-color: aliceblue;
+    /* ME TO flex-shrink κραταει το αντικειμενο μεσα στο κουτι */
+    /* ΑΝ ΗΤΑΝ 0 ΘΑ ΕΒΓΑΙΝΕ ΕΞΩ ΑΠΟ ΤΟ BORDER */
+    flex: 0 0 1000px
+}

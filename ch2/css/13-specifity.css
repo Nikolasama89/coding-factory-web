@@ -1,0 +1,13 @@
+p {
+    color: red
+}
+
+.cf-text {
+    color: green;
+}
+
+
+/* Bad practice */
+p {
+    color: blue!important; 
+}
