@@ -1,0 +1,48 @@
+div[class^="grid"] {
+    border: 1px solid black;   
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+
+/* .grid-item-1 {
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+ /* ΤΟ ΑΠΟ ΚΑΤΩ ΔΙΝΕΙ ΑΚΡΙΒΩΣ ΤΟ ΙΔΙΟ ΑΠΟΤΕΛΕΣΜΑ */
+
+/* .grid-item-1 {
+    background-color: purple;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+} */
+
+/* TO ΙΔΙΟ ΠΑΛΙ ΟΠΩΣ ΚΑΙ ΤΟ ΑΠΟ ΠΑΝΩ */
+.grid-item-1 {
+    background-color: purple;
+    grid-column: 1/4;
+}
+
+.grid-item-2 {
+    background-color: green;
+}
+
+.grid-item-3 {
+    background-color: blue;
+}
+
+.grid-item-4 {
+    background-color: red;
+}
+
+.grid-item-5 {
+    background-color: lightgray;
+}
+
+.grid-item-6 {
+    background-color: yellow;
+}
