@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/4-mockup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../ch5/images/logo_opa.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="">Home</a>
+                        <ul class="dropdown-content">
+                            <li><a href="">Εκπαίδευση</a></li>
+                            <li><a href="">Έρευνα</a></li>
+                            <li><a href="">Διασύνδεση</a></li>
+                            <li><a href="">Υπηρεσίες</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">We educate</a></li>
+                    <li><a href="">We Inovate</a></li>
+                    <li><a href="">We Are</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-toggle">
+                <button type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+        </header>
+
+        <div class="navbar-toggle">
+            <ul>
+                <li class="dropdown">
+                    <a href="">Home</a>
+                    <ul class="dropdown-content">
+                        <li><a href="">Εκπαίδευση</a></li>
+                        <li><a href="">Έρευνα</a></li>
+                        <li><a href="">Διασύνδεση</a></li>
+                        <li><a href="">Υπηρεσίες</a></li>
+                    </ul>
+                </li>
+                <li><a href="">We educate</a></li>
+                <li><a href="">We Inovate</a></li>
+                <li><a href="">We Are</a></li>
+            </ul>
+        </div>
+
+        <div class="home-img gap-bottom">
+            <div class="home-title">
+                <span>All you need is passion, design software and... <br>Coding factory</span>
+            </div>
+        </div>
+
+        <main>
+            <h2>Coding Factory</h2>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Nisi vitae corporis velit, repellendus delectus accusamus
+                      fuga quam aperiam ad quia inventore soluta deleniti 
+                     ipsa animi distinctio. Facere aliquid iste praesentium.
+                </p>
+            </section>
+            <section>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     At facere maxime, consectetur impedit beatae nisi, sequi eius,
+                      modi magnam sunt voluptates repellat possimus
+                      laboriosam officia nulla praesentium dolores iure distinctio?
+                </p>
+            </section>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laborum molestiae explicabo animi veritatis voluptatem vel odit ipsam non nam voluptates quae obcaecati amet, 
+                     repudiandae, totam temporibus aperiam. Vel, excepturi ullam!
+                </p>
+            </section>
+        </main>
+        <footer>
+            <div>&copy; Coding Factory 2024-AUEB</div>
+            <div>
+                <span>Follow us:</span>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        const img = document.querySelector('.home-img');
+        const toggleBtn = document.querySelector('.nav-toggle');
+        const navBarToggle = document.querySelector('.navbar-toggle');
+        const main = document.querySelector('.main');
+        const footer = document.querySelector('.footer');
+        
+        toggleBtn.addEventListener('click', function(){
+            //alert('my program');
+            img.classList.toggle('hidden');
+            navBarToggle.classList.toggle('show');
+        })
+    </script>
+</body>
+</html>
